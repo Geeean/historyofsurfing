@@ -1,6 +1,7 @@
 h1{
   text-align: center;
-  font-family: "Roboto Light";
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: coral;
 }
 
 body{
@@ -8,39 +9,24 @@ body{
   text-align: center;
 }
 
+p{
+  color: blanchedalmond;
+}
 img{
-  display: inline-block;
   width: 200px;
+  height: 200px;
+  margin: 50px;
 }
 
-.container{
 
+.box {
+  position:relative;
+  width:200px;
+  display: inline;
 }
-
-
-.duke{
+.box-text {
+  font-size: 20px;
   position: absolute;
-  top: 50%;
+  bottom: 700%;
   left: 50%;
-  font-size: 18px;
-}
-.more{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 18px;
-}
-
-.filipe{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 18px;
-}
-
-.robert{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 18px;
 }
